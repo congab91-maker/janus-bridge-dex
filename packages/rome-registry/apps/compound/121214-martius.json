@@ -1,0 +1,90 @@
+{
+  "chainId": 121214,
+  "chainSlug": "martius",
+  "status": "live",
+  "rpcRef": "chains/121214-martius/chain.json#rpcUrl",
+  "bulker": "0x5a3F351E6FB57BeA3FEF4B85fF2be214985793A1",
+  "baseAsset": {
+    "address": "0x2fffdfa11a9cef9210dc34e975649f09119c4efb",
+    "displaySymbol": "wUSDC",
+    "underlyingMint": "3b442cb3912157f13a933d0134282d032b5ffecd01a2dbf1b7790608df002ea7"
+  },
+  "comets": [
+    {
+      "label": "multicollat",
+      "address": "0x2fD2C964342f2332b80D27d4eAbE0E0c4A22a43d",
+      "collateralAssets": [
+        "0x03183ee90388c9553fe9c7b019a32ce133b8e58e",
+        "0xa4dbecdcc812b9c933967a15fe5d9af420084b2b",
+        "0x34ae37cfa1f41f5e69d8f042f7455a63a4f048b8",
+        "0x8a27e495cead6ecbbe25b537dbf666fd6bfe01e3",
+        "0xe6fd55a93caecf0f9cf60fbc4d2cbe0d71b54491",
+        "0x71dc1c088e17ccd67058c626a358e02f6ebaac69",
+        "0xcb1e4cd61704c9fcc196ce98619e85a241383fd8",
+        "0x2c71373725c59b3f1d47a0d425b7050d02e014b4"
+      ]
+    }
+  ],
+  "collateralAssets": [
+    {
+      "symbol": "wETH",
+      "address": "0x03183ee90388c9553fe9c7b019a32ce133b8e58e",
+      "decimals": 8
+    },
+    {
+      "symbol": "wSOL",
+      "address": "0xa4dbecdcc812b9c933967a15fe5d9af420084b2b",
+      "decimals": 9
+    },
+    {
+      "symbol": "wBTC",
+      "address": "0x34ae37cfa1f41f5e69d8f042f7455a63a4f048b8",
+      "decimals": 9
+    },
+    {
+      "symbol": "wJitoSOL",
+      "address": "0x8a27e495cead6ecbbe25b537dbf666fd6bfe01e3",
+      "decimals": 9
+    },
+    {
+      "symbol": "wmSOL",
+      "address": "0xe6fd55a93caecf0f9cf60fbc4d2cbe0d71b54491",
+      "decimals": 9
+    },
+    {
+      "symbol": "wJUP",
+      "address": "0x71dc1c088e17ccd67058c626a358e02f6ebaac69",
+      "decimals": 9
+    },
+    {
+      "symbol": "wJTO",
+      "address": "0xcb1e4cd61704c9fcc196ce98619e85a241383fd8",
+      "decimals": 9
+    },
+    {
+      "symbol": "wBONK",
+      "address": "0x2c71373725c59b3f1d47a0d425b7050d02e014b4",
+      "decimals": 9
+    }
+  ],
+  "ux": {
+    "singleTxFlows": [
+      "supply",
+      "supplyTo",
+      "withdraw",
+      "withdrawTo",
+      "borrow",
+      "transferAsset",
+      "allow",
+      "supplyCollatBorrowBase",
+      "twoCollatSupply"
+    ],
+    "bundleFlows": [],
+    "fallbackFlows": [
+      "sequentialNTx"
+    ]
+  },
+  "jito": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "chainId": 200010,
+  "chainSlug": "hadrian",
+  "status": "live",
+  "rpcRef": "chains/200010-hadrian/chain.json#rpcUrl",
+  "bulker": "0x18A2DbfeD0d1f1094289E56e333A14c12C47E73b",
+  "baseAsset": {
+    "address": "0xd4cc34b67c805d472b5a709a22a1037f6b16ef28",
+    "displaySymbol": "wUSDC",
+    "underlyingMint": "3b442cb3912157f13a933d0134282d032b5ffecd01a2dbf1b7790608df002ea7"
+  },
+  "comets": [
+    {
+      "label": "canonical",
+      "address": "0xfc322489D4089AdCC79074C8058Fd257c63622D8",
+      "collateralAssets": [
+        "0x8c2c1486cadf7d07312908a065f14af65f56be7e",
+        "0x1dece035621c65a90349b56a801068b439fa4201",
+        "0xd3200df5e6f5e37fdba0275bb63dca1b22506760",
+        "0x1ae3f6327a919c33ebb7590df3d14e3f222f2b04",
+        "0x872b857058bfb8bf30720b3aa6a0816b76abb271",
+        "0x1b3f2b2d67d5ac13bc9c3121eedf15e968e5609a",
+        "0xcca3f9df5e9f60bb7485606260e3816ebcafbf7f",
+        "0xae4309c91925e1710d725234aa8797631dc3d88a"
+      ]
+    }
+  ],
+  "collateralAssets": [
+    {
+      "symbol": "wETH",
+      "address": "0x8c2c1486cadf7d07312908a065f14af65f56be7e",
+      "decimals": 8
+    },
+    {
+      "symbol": "wSOL",
+      "address": "0x1dece035621c65a90349b56a801068b439fa4201",
+      "decimals": 9
+    },
+    {
+      "symbol": "wBTC",
+      "address": "0xd3200df5e6f5e37fdba0275bb63dca1b22506760",
+      "decimals": 9
+    },
+    {
+      "symbol": "wJitoSOL",
+      "address": "0x1ae3f6327a919c33ebb7590df3d14e3f222f2b04",
+      "decimals": 9
+    },
+    {
+      "symbol": "wmSOL",
+      "address": "0x872b857058bfb8bf30720b3aa6a0816b76abb271",
+      "decimals": 9
+    },
+    {
+      "symbol": "wJUP",
+      "address": "0x1b3f2b2d67d5ac13bc9c3121eedf15e968e5609a",
+      "decimals": 9
+    },
+    {
+      "symbol": "wJTO",
+      "address": "0xcca3f9df5e9f60bb7485606260e3816ebcafbf7f",
+      "decimals": 9
+    },
+    {
+      "symbol": "wBONK",
+      "address": "0xae4309c91925e1710d725234aa8797631dc3d88a",
+      "decimals": 9
+    }
+  ],
+  "ux": {
+    "singleTxFlows": [
+      "supply",
+      "supplyTo",
+      "withdraw",
+      "withdrawTo",
+      "borrow",
+      "transferAsset",
+      "allow",
+      "supplyCollatBorrowBase",
+      "twoCollatSupply"
+    ],
+    "bundleFlows": [],
+    "fallbackFlows": [
+      "sequentialNTx"
+    ]
+  },
+  "jito": {
+    "enabled": false
+  },
+  "faucet": {
+    "address": "0xA24CB9b443F46aE205586Cd3dDF0447A9f295019",
+    "gasDropWei": "0",
+    "tokens": [
+      {
+        "symbol": "wBTC",
+        "address": "0xd3200df5e6f5e37fdba0275bb63dca1b22506760",
+        "decimals": 9,
+        "dropAmountWei": "1000000000"
+      },
+      {
+        "symbol": "wJitoSOL",
+        "address": "0x1ae3f6327a919c33ebb7590df3d14e3f222f2b04",
+        "decimals": 9,
+        "dropAmountWei": "1000000000"
+      },
+      {
+        "symbol": "wmSOL",
+        "address": "0x872b857058bfb8bf30720b3aa6a0816b76abb271",
+        "decimals": 9,
+        "dropAmountWei": "1000000000"
+      },
+      {
+        "symbol": "wJUP",
+        "address": "0x1b3f2b2d67d5ac13bc9c3121eedf15e968e5609a",
+        "decimals": 9,
+        "dropAmountWei": "1000000000"
+      },
+      {
+        "symbol": "wJTO",
+        "address": "0xcca3f9df5e9f60bb7485606260e3816ebcafbf7f",
+        "decimals": 9,
+        "dropAmountWei": "1000000000"
+      },
+      {
+        "symbol": "wBONK",
+        "address": "0xae4309c91925e1710d725234aa8797631dc3d88a",
+        "decimals": 9,
+        "dropAmountWei": "1000000000"
+      }
+    ]
+  }
+}

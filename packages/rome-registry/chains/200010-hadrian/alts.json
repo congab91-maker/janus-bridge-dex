@@ -1,0 +1,43 @@
+{
+  "chain_id": "200010-hadrian",
+  "tables": [
+    {
+      "pubkey": "9DswaXsjcqozpbUUnL24wRqteqZTZH1UqCpFcsYWcgQP",
+      "tier": "chain"
+    },
+    {
+      "pubkey": "458nSqg6qzcsgYr1DiDrs59UBJD8VRsvpiiHP7rQ3MVk",
+      "tier": "dapp",
+      "dapp": "comet"
+    },
+    {
+      "pubkey": "7drY6cBpTUpKF7joWb1STkqySASA9UNrwTBW192Vs6fg",
+      "tier": "dapp",
+      "dapp": "romedefi-240"
+    },
+    {
+      "pubkey": "3Vp2h9LKTquVVXAfdNgF1h87uo1UdnamCre2ARTS213B",
+      "tier": "dapp",
+      "dapp": "rome-dex"
+    },
+    {
+      "pubkey": "CHUrjYgXPDca7Hw4eKiVt4eQFSG3hMdU1hR1wVikEJpt",
+      "tier": "dapp",
+      "dapp": "aave"
+    },
+    {
+      "pubkey": "9g7bKXzF9n1x56ZFamvTBRmDaJcvc3Qc9rksMGkUwhKM",
+      "tier": "dapp"
+    },
+    {
+      "pubkey": "FK4YVGwFrJW12Utv5ACaySLDs6gJuBSrBQtRMGvr4iUW",
+      "tier": "dapp",
+      "dapp": "permissioned-pools"
+    },
+    {
+      "pubkey": "7HczhHgtbzxr4rS4hwrR25TqSZr5TGL3PtCLYcsPH7Pv",
+      "tier": "dapp",
+      "dapp": "book"
+    }
+  ]
+}

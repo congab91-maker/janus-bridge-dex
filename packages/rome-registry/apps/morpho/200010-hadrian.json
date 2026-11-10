@@ -1,0 +1,88 @@
+{
+  "chainId": 200010,
+  "chainSlug": "hadrian",
+  "morphoBlue": {
+    "address": "0x901862cfd42576b24db17a4605c97ad4e41bb941",
+    "version": "v1.0.0"
+  },
+  "irms": [
+    {
+      "label": "adaptive-curve",
+      "address": "0xe5492ee085f03ee955feff10d5a6a5bddd80d7c9",
+      "kind": "adaptive-curve",
+      "status": "live"
+    },
+    {
+      "label": "mock",
+      "address": "0x20519fb089e77688d3a26926c1ab8f7c3001bbbb",
+      "kind": "mock",
+      "status": "retiring"
+    }
+  ],
+  "oracles": [
+    {
+      "label": "fxg-nav",
+      "address": "0xc18e9455143afb46f5d743074efac2a761205cb1",
+      "kind": "MorphoNavOracle over an OG-V2 CachedFeedAdapter (issuer-published net asset value, 8 dp -> IOracle.price() at 1e36)",
+      "feed": {
+        "source": "0x1e2fc4cc67c50ad584da46e755ce150d24b4bbda",
+        "cachedFeedAdapter": "0x34051cfef4ef00b019863622fae037bf634df8ac",
+        "stalenessSeconds": 86400
+      }
+    }
+  ],
+  "markets": [
+    {
+      "id": "0xb5ee9d2919fbbce14b75032247dc8d283a4d94c14fe044c585e96db6b0697788",
+      "label": "FXG -> wUSDC (adaptive-curve)",
+      "loanToken": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
+      "collateralToken": "0xfd6b3b8fcd204120e31089c601b112843906535f",
+      "oracle": "0xc18e9455143afb46f5d743074efac2a761205cb1",
+      "irm": "0xe5492ee085f03ee955feff10d5a6a5bddd80d7c9",
+      "lltv": "860000000000000000",
+      "status": "live"
+    },
+    {
+      "id": "0xe5585b6ca10d93fd534eb48f6c7f9afe65d189396a30ce8c4b7a255ffe9d90b5",
+      "label": "FXG -> wUSDC (mock IRM)",
+      "loanToken": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
+      "collateralToken": "0xfd6b3b8fcd204120e31089c601b112843906535f",
+      "oracle": "0xc18e9455143afb46f5d743074efac2a761205cb1",
+      "irm": "0x20519fb089e77688d3a26926c1ab8f7c3001bbbb",
+      "lltv": "860000000000000000",
+      "status": "retiring"
+    }
+  ],
+  "vaults": [
+    {
+      "label": "bloom-wusdc",
+      "address": "0xb2ca952e50c7e977656d671325bff887a3641c69",
+      "name": "Bloom wUSDC",
+      "symbol": "bwUSDC",
+      "asset": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
+      "standard": "morpho-vaults-v2",
+      "factory": "0x8bfe1cc849ce427896caa274f8d364cb1ea5f0c2",
+      "timelockSeconds": 86400,
+      "status": "live",
+      "fees": {
+        "performance": "0",
+        "management": "0"
+      },
+      "adapters": [
+        {
+          "label": "morpho-market-v1-adapter-v2",
+          "address": "0x587ed1be42d73bc9ac732debc3c960573a63441a",
+          "kind": "morpho-market-v1-adapter-v2",
+          "factory": "0xb349bc5cee6e7c9a31605f3444a107af984050e1",
+          "markets": [
+            "0xb5ee9d2919fbbce14b75032247dc8d283a4d94c14fe044c585e96db6b0697788"
+          ],
+          "caps": {
+            "absolute": "10000000",
+            "relative": "1000000000000000000"
+          }
+        }
+      ]
+    }
+  ]
+}

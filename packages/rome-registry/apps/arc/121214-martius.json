@@ -1,0 +1,46 @@
+{
+  "chainId": 121214,
+  "chainSlug": "martius",
+  "arcPin": "8248e78ce0c15ad3875fb2e693de9685ecf982d7",
+  "restrictionsRouter": "0xe74475072f592128794521832fbb0967e32cee7c",
+  "arcTokenFactoryV2": "0x75e515fc087c03cad8a1d39aa2d2cc0a2fe60419",
+  "arcTokenImplementation": "0xe03d8af4fd281b409de74c58784aabacd9f1300b",
+  "arcTokenPurchase": "0x5f121c43616e04ec5e2bd3662e052291ddef9c30",
+  "paymentToken": {
+    "symbol": "wUSDC",
+    "address": "0xd3201dc0f6fd1fe12c1fc297fb2b35927ad483b0",
+    "decimals": 6
+  },
+  "compliance": {
+    "model": "per-token-allowlist",
+    "onChainData": "allowlist-boolean-only",
+    "documentsAccepted": false,
+    "spansBothWalletWorlds": true
+  },
+  "ux": {
+    "singleTxFlows": [
+      "transfer",
+      "approve",
+      "buy",
+      "allowlistAdd",
+      "allowlistRemove",
+      "setTransfersAllowed",
+      "enableSale",
+      "distributeYieldOneHolder"
+    ],
+    "bundleFlows": [],
+    "fallbackFlows": [
+      "sequentialNTx"
+    ],
+    "solanaLaneFlows": [
+      "transfer",
+      "approve",
+      "buy",
+      "cashLegSweep"
+    ],
+    "piecewiseFlows": [
+      "createToken",
+      "distributeYieldAllHolders"
+    ]
+  }
+}

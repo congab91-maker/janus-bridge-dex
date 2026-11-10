@@ -1,0 +1,129 @@
+{
+  "factory": "0x52b008771fc95b4674a4f3533570b3d223f27f68",
+  "feeds": {
+    "BONK/USD": {
+      "address": "0xedBC5DcAA36e64c691e1E157f3D30b18735987F1"
+    },
+    "BONK/USD-BOOK": {
+      "address": "0xB592182D08b11569C2dCaB233bE9B845FfFE574A"
+    },
+    "BONK/USD-CACHED": {
+      "address": "0xc3Bfe54b03fd3c0b9Fb66384a7C00f5fA4009B29"
+    },
+    "BONK/USD-CACHEDPYTH": {
+      "address": "0xa03B8Df28C014Dc3CE29a71D7DA87F8Af00e5E15"
+    },
+    "BTC/USD": {
+      "address": "0x2A6E178DC1d9B7372F187b7943B660E910957213"
+    },
+    "BTC/USD-BOOK": {
+      "address": "0x88F3eDb4c0A1Ef81756e5594Ba46ca55c71Dfe0A"
+    },
+    "BTC/USD-CACHED": {
+      "address": "0x1B5969885A3Db34f084174896067D78F35216068"
+    },
+    "BTC/USD-CACHEDPYTH": {
+      "address": "0x3308030E97Cd27B29e85b5D96F2587E98b81a47D"
+    },
+    "ETH/USD": {
+      "address": "0xFF6A4A6FE685574fb0Ba3ec2b59D4E8C1e2fEc38"
+    },
+    "ETH/USD-BOOK": {
+      "address": "0x708Da7aC0401cA2DEB74Aa0a87B0BaaC8262040a"
+    },
+    "ETH/USD-CACHED": {
+      "address": "0x7AA97D8414b2AB68369e147b6A72de41f26df2E7"
+    },
+    "ETH/USD-CACHEDPYTH": {
+      "address": "0x68b15df0110779d83282a85aB36A1b590dc03821"
+    },
+    "JITOSOL/USD": {
+      "address": "0x2a11C9f5dead04767601b2b5bDefeB74DB254B6F"
+    },
+    "JITOSOL/USD-BOOK": {
+      "address": "0x9a4A2b9586902e18f7107D7F4047b898BE235832"
+    },
+    "JITOSOL/USD-CACHED": {
+      "address": "0xAA041674ac2495Dec7e353e9f4DaA8E334446fE8"
+    },
+    "JITOSOL/USD-CACHEDPYTH": {
+      "address": "0x1B8A291ca54e4F3E60CaDCb7fb3Ffc8CB4ede1d9"
+    },
+    "JTO/USD": {
+      "address": "0x9a46Cc1aD7caf8a66e3cbE273a1ff2D11647D473"
+    },
+    "JTO/USD-BOOK": {
+      "address": "0x7227a15304D25609D322F66244Ff74A451235Ea3"
+    },
+    "JTO/USD-CACHED": {
+      "address": "0x41C221CeC24E4783385985416393D14413d48652"
+    },
+    "JTO/USD-CACHEDPYTH": {
+      "address": "0x79D395CB830ff3bdcE5c71Ca18b0d5187A1CFbC4"
+    },
+    "JUP/USD": {
+      "address": "0xB328E64d8AA59f8231b09AfA62E67bc09Ac3BB61"
+    },
+    "JUP/USD-BOOK": {
+      "address": "0xE922d82F3ecA3093181f173feE1ff5575Ec60c93"
+    },
+    "JUP/USD-CACHED": {
+      "address": "0xeDEe2DAF099A3609932fA7d92a0615d9d8709640"
+    },
+    "JUP/USD-CACHEDPYTH": {
+      "address": "0x2E62d982F77Ef5a9245cc062ceDeeb3199b5aEF0"
+    },
+    "MSOL/USD": {
+      "address": "0xc42ECA0AEc076c341b4be3E55c5447E314B3a509"
+    },
+    "MSOL/USD-BOOK": {
+      "address": "0x7b3b69c3B6E4C092793473FC727cFE56fbA4576A"
+    },
+    "MSOL/USD-CACHED": {
+      "address": "0x534203b7a003892586B211720371A991813Bf33e"
+    },
+    "MSOL/USD-CACHEDPYTH": {
+      "address": "0x3c21307c00A91EB25085a8C55f463239CaBdF056"
+    },
+    "SOL/USD": {
+      "address": "0x567384ee000ca0418c386A73eC2b7466f9f99D6b"
+    },
+    "SOL/USD-BOOK": {
+      "address": "0x10d1ab750883696D1be78F68f361D55D27145FB7"
+    },
+    "SOL/USD-CACHED": {
+      "address": "0x0dB204df632e74b6EEF417B8Bc6EF7BEC7dB7BCD"
+    },
+    "SOL/USD-CACHEDPYTH": {
+      "address": "0x6AF0E1399ac374249f569a131BFB8c8f74718B90"
+    },
+    "SOL/USD-SB": {
+      "address": "0xd0892985678E8e2166Cae3703155287686dD5c73",
+      "status": "retired"
+    },
+    "USDC/USD": {
+      "address": "0x00708ec9Df77ad2C5aFB2e7eb2389C3c1a21C65E"
+    },
+    "USDC/USD-BOOK": {
+      "address": "0x8552B15784f5cA685b7814f60cA0bBe612F56c60"
+    },
+    "USDC/USD-CACHED": {
+      "address": "0xC9F58cd6efe7FE6174080F52C461a0e94FF294D0"
+    },
+    "USDC/USD-CACHEDPYTH": {
+      "address": "0x5346Befd841Ae93BEC89B429579e77430fcad6F2"
+    },
+    "USDT/USD": {
+      "address": "0xe0B7db83256b40d85710eE780Ac351b7b9F0A480"
+    },
+    "USDT/USD-BOOK": {
+      "address": "0x22E73aEC0914a2F473ed66bd9502f6fcd6b2C5AE"
+    },
+    "USDT/USD-CACHED": {
+      "address": "0x752674FCB94ab8C307aEadCf5eB7bADeA612279E"
+    },
+    "USDT/USD-CACHEDPYTH": {
+      "address": "0xe316f244cFaD48Fa8aB4b033485A178EC12330ee"
+    }
+  }
+}

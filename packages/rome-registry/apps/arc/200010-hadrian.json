@@ -1,0 +1,46 @@
+{
+  "chainId": 200010,
+  "chainSlug": "hadrian",
+  "arcPin": "8248e78ce0c15ad3875fb2e693de9685ecf982d7",
+  "restrictionsRouter": "0xdf703e8537f9cda3189d8c5ebaa1decb3fae61cc",
+  "arcTokenFactoryV2": "0x77ddb57682b2ccb2270bdc2966317696e03eb019",
+  "arcTokenImplementation": "0x31feaac99395f0e42680539d8f997ec48147152e",
+  "arcTokenPurchase": "0x4997d7dfb1fc232e1c71605f4f9aa7e3fb9b9f2a",
+  "paymentToken": {
+    "symbol": "wUSDC",
+    "address": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
+    "decimals": 6
+  },
+  "compliance": {
+    "model": "per-token-allowlist",
+    "onChainData": "allowlist-boolean-only",
+    "documentsAccepted": false,
+    "spansBothWalletWorlds": true
+  },
+  "ux": {
+    "singleTxFlows": [
+      "transfer",
+      "approve",
+      "buy",
+      "allowlistAdd",
+      "allowlistRemove",
+      "setTransfersAllowed",
+      "enableSale",
+      "distributeYieldOneHolder"
+    ],
+    "bundleFlows": [],
+    "fallbackFlows": [
+      "sequentialNTx"
+    ],
+    "solanaLaneFlows": [
+      "transfer",
+      "approve",
+      "buy",
+      "cashLegSweep"
+    ],
+    "piecewiseFlows": [
+      "createToken",
+      "distributeYieldAllHolders"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "factory": "0x8c92fd70360df63246cd0c8247119c79234b26ae",
+  "feeds": {
+    "SOL/USD": {
+      "address": "0xe299a5FCb412138A7D90e131AC17eaFAD36013da"
+    },
+    "BTC/USD": {
+      "address": "0x949BB86Da28dBF36a8E7F617367F473FdB5a5071"
+    },
+    "ETH/USD": {
+      "address": "0xA3361028c773dCD28c3F999330b8FfB5793EF7F1"
+    },
+    "USDC/USD": {
+      "address": "0x7298aD90d4AA37792Cad858203889d81c42ACEf6"
+    },
+    "USDT/USD": {
+      "address": "0xC6826F528074A868b83f45604a3D850e9CEd43f5"
+    },
+    "JUP/USD": {
+      "address": "0x0802D2bFDc7e51ec205A8bd9fC61e967B75143Df"
+    },
+    "JTO/USD": {
+      "address": "0x08903A275b297f205C7b5b8c759B8B4F114D4A2E"
+    },
+    "JITOSOL/USD": {
+      "address": "0x7Abcc9e1783704c1fFB830E303710eD339ed4484"
+    },
+    "MSOL/USD": {
+      "address": "0x1Aac7a8490ac5d24B50ADA9B4b67196a6333F44E"
+    },
+    "BONK/USD": {
+      "address": "0x392D9c0E2c5C62A9B8BE8CA7510C9ea0df600822"
+    },
+    "SOL/USD-SB": {
+      "address": "0x3b383719a0af1029E7504D4aa0b516A294901B3a",
+      "status": "retired"
+    },
+    "SOL/USD-CACHEDPYTH": {
+      "address": "0xb375C444307eba67ae40B72D5f78B917722A25A9"
+    },
+    "BTC/USD-CACHEDPYTH": {
+      "address": "0x0c6B8cbaF5F3C1e8135B4924F83653623a56c8e4"
+    },
+    "ETH/USD-CACHEDPYTH": {
+      "address": "0x6757780791E06098B0208EfafDb51a1Ada98199F"
+    },
+    "USDC/USD-CACHEDPYTH": {
+      "address": "0x4a8b216Ceb66954e919d7755d24B91273189d56e"
+    },
+    "USDT/USD-CACHEDPYTH": {
+      "address": "0xF749EE0eA2Fa49279ce43a74fBf43e0b8bb46795"
+    },
+    "JUP/USD-CACHEDPYTH": {
+      "address": "0x1eA7894Be45a381a0DfED9bad796BAd8e9b8dD61"
+    },
+    "JTO/USD-CACHEDPYTH": {
+      "address": "0x16799fAAcbe064c225F34510Cc686773De02Aeb2"
+    },
+    "JITOSOL/USD-CACHEDPYTH": {
+      "address": "0x15bCde6Ac8e2d89D30440752414aC0d5DF70c429"
+    },
+    "MSOL/USD-CACHEDPYTH": {
+      "address": "0x2fF460F9400535edF8d3Ba373E1394dACacaF63b"
+    },
+    "BONK/USD-CACHEDPYTH": {
+      "address": "0x94c528CB6a0Ad8d71182C791693D9C02073A5fC4"
+    },
+    "SOL/USD-CACHED": {
+      "address": "0x765DdBbcB3Ba9093A8492D9ed7130a26D3E29aB2"
+    },
+    "BTC/USD-CACHED": {
+      "address": "0x622e3beac8c55a49CB67Ad7C2d3Fede1955EcE7D"
+    },
+    "ETH/USD-CACHED": {
+      "address": "0x551C45D38e808B04738B3894469C9bCd2c4be2aC"
+    },
+    "USDC/USD-CACHED": {
+      "address": "0x284a2e10610416611168356e7a73b3FeE6CCdCd3"
+    },
+    "USDT/USD-CACHED": {
+      "address": "0xba49d26D1A137b26A9C9a2105Dc70D3A39Ac712c"
+    },
+    "JUP/USD-CACHED": {
+      "address": "0xf04D06d2FCcf6958E6542736541C74F676dEF45b"
+    },
+    "JTO/USD-CACHED": {
+      "address": "0xB4F384B4dC4dbdcA4d98A870caA9C96BCE5f8280"
+    },
+    "JITOSOL/USD-CACHED": {
+      "address": "0x2dc646b87b735c6568Fc158E7C3a72fcc42A28ae"
+    },
+    "MSOL/USD-CACHED": {
+      "address": "0x9bE6E2392Da1EB98111E0e1d91fF5eBA8d0cc411"
+    },
+    "BONK/USD-CACHED": {
+      "address": "0x32694F81110812BE793d5A8c62eCbDe48191f69F"
+    },
+    "SOL/USD-BOOK": {
+      "address": "0x8C76618A6C5034b97Cc9DBc003DA679d5162fCE2"
+    },
+    "BTC/USD-BOOK": {
+      "address": "0x819234Bf3eE4CE5f280b44767573b3Be5cC6e9b8"
+    },
+    "ETH/USD-BOOK": {
+      "address": "0x2B758dF4d224b56EAbc61f7A3cD67ae376e0D46E"
+    },
+    "USDC/USD-BOOK": {
+      "address": "0x34470533c80b1594f7bd9A28BC10CF9121962EBD"
+    },
+    "USDT/USD-BOOK": {
+      "address": "0x0F6863d70dA533B92BdD7c0a4b1Ee6018c1fDa43"
+    },
+    "JUP/USD-BOOK": {
+      "address": "0x2a71BA23C15a881BaDF2d548AA91438112CC07B4"
+    },
+    "JITOSOL/USD-BOOK": {
+      "address": "0xeC7A0D0318c3B6f28f5823c13eDcb7439ba395db"
+    },
+    "MSOL/USD-BOOK": {
+      "address": "0xe9041B20191Af1d922904fCD26A3Cd6a507F7b35"
+    },
+    "BONK/USD-BOOK": {
+      "address": "0x3F17856174e0a331F01741cB27428B8cE38fe18F"
+    }
+  }
+}

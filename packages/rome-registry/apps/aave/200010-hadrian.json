@@ -1,0 +1,46 @@
+{
+  "chainId": 200010,
+  "chainSlug": "hadrian",
+  "pool": "0x81e7e7e4cBC2b5a55C2dE1d3dFCf87C0cF867520",
+  "addressesProvider": "0x8f40D56ffAA473120177c65FC5EE431b22353CD4",
+  "uiPoolDataProviderV3": "0xd5C1348e15543A04e6A10303429F75d1ddeFD152",
+  "poolConfigurator": "0x1186549d0E2308579337ff064B2C5865F416d01F",
+  "aclManager": "0x15Ef778f6399Ae984cc2A816afE76e30bd9e14D0",
+  "oracle": "0x4736549aB02e6c6b7083b7625464368E203287E4",
+  "poolDataProvider": "0x79b627B56252468FD53d6F2d7C572Ea969dCC10D",
+  "reserves": [
+    {
+      "underlying": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
+      "displaySymbol": "USDC",
+      "decimals": 6,
+      "symbol": "wUSDC"
+    },
+    {
+      "underlying": "0x02aeace038269f9961c93d04dcacd6fb3adfa55f",
+      "displaySymbol": "ETH",
+      "decimals": 8,
+      "symbol": "wETH"
+    },
+    {
+      "underlying": "0x39f36444fcb79b3e691544aee2a832ebef54ca9f",
+      "displaySymbol": "SOL",
+      "decimals": 9,
+      "symbol": "wSOL"
+    }
+  ],
+  "ux": {
+    "singleTxFlows": [
+      "supply",
+      "withdraw",
+      "borrow",
+      "repay",
+      "setUserUseReserveAsCollateral",
+      "liquidationCall",
+      "flashLoanSimple"
+    ],
+    "bundleFlows": [],
+    "fallbackFlows": [
+      "sequentialNTx"
+    ]
+  }
+}

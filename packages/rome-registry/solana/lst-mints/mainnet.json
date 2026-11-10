@@ -1,0 +1,37 @@
+{
+  "JitoSOL": {
+    "mint": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+    "symbol": "JitoSOL",
+    "name": "Jito Staked SOL",
+    "program": "spl-stake-pool",
+    "stakePool": "Jito4APyf642JPZPx3hGc6WWJ8zPKtRbRs4P815Awbb",
+    "expectedRate": 0.83,
+    "approxApy": "~7.0%"
+  },
+  "bSOL": {
+    "mint": "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
+    "symbol": "bSOL",
+    "name": "BlazeStake Staked SOL",
+    "program": "spl-stake-pool",
+    "stakePool": "stk9ApL5HeVAwPLr3TLhDXdZS8ptVu7zp6ov8HFDuMi",
+    "expectedRate": 0.85,
+    "approxApy": "~6.8%"
+  },
+  "mSOL": {
+    "mint": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+    "symbol": "mSOL",
+    "name": "Marinade Staked SOL",
+    "program": "marinade",
+    "expectedRate": 0.84,
+    "approxApy": "~7.0%"
+  },
+  "JupSOL": {
+    "mint": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+    "symbol": "JupSOL",
+    "name": "Jupiter Staked SOL",
+    "program": "spl-stake-pool",
+    "stakePool": "8VpRhuxa7sUUepdY3kQiTmX9rS5vx4WgaXiAnXq4KCtr",
+    "expectedRate": 0.84,
+    "approxApy": "~7.5%"
+  }
+}

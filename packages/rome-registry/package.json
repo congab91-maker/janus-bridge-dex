@@ -1,0 +1,22 @@
+{
+  "name": "@rome-protocol/registry",
+  "version": "0.2.0",
+  "description": "Public Rome chain metadata — chains, tokens, contracts, oracle feeds, ALTs, app deployments, and Solana program ids.",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "default": "./index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.mjs",
+    "chains",
+    "apps",
+    "solana",
+    "AGENTS.md"
+  ],
+  "license": "MIT"
+}
